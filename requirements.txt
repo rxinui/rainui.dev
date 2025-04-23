@@ -1,0 +1,4 @@
+mkdocs-material
+mkdocs-material[imaging]
+mkdocs-simple-blog 
+mkdocs-blog-plugin

@@ -1,0 +1,19 @@
+site_name: rainui.dev
+site_url: http://rainui.dev
+theme:
+  name: simple-blog
+  custom_dir: overrides
+  features:
+    - navigation.path
+    - navigation.tabs
+# extra_javascript:
+#   - js/social.js
+plugins:
+  - search:
+      enabled: false
+  - blog:
+      enabled: true
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
