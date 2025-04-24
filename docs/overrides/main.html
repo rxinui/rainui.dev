@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block analytics %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ST301WECG7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ST301WECG7');
+</script>
+
+{{ super() }} {% endblock %} {% block header %}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ST301WECG7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ST301WECG7');
+</script>
+
+
+{{ super() }} {% endblock %} {% block footer %}
+<footer>
+  <center>
+    <p style="font-size: 10px">
+      theme by <a href="https://github.com/FernandoCelmer/mkdocs-simple-blog">fernando celmer</a>
+    </p>
+  </center>
+</footer>
+{% endblock %}

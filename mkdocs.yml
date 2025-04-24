@@ -2,7 +2,7 @@ site_name: rainui.dev
 site_url: http://rainui.dev
 theme:
   name: simple-blog
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.path
     - navigation.tabs
@@ -19,5 +19,4 @@ markdown_extensions:
   - pymdownx.blocks.caption
 extra:
   analytics:
-    provider: google
-    property: G-ST301WECG7
+    provider: custom
