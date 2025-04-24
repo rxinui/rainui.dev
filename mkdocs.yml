@@ -23,3 +23,5 @@ markdown_extensions:
 extra:
   analytics:
     provider: custom
+extra_css:
+  - stylesheets/extra.css
