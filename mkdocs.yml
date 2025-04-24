@@ -17,3 +17,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+extra:
+  analytics:
+    provider: google
+    property: G-ST301WECG7
