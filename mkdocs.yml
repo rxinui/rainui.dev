@@ -1,17 +1,20 @@
 site_name: rainui.dev
-site_url: http://rainui.dev
+site_url: https://rainui.dev
+# repo_url: https://github.com/rxinui/rainui.dev
+repo_name: rxinui/rainui.dev
 theme:
   name: simple-blog
   custom_dir: docs/overrides
   features:
+    - navigation.indexes
     - navigation.path
     - navigation.tabs
-# extra_javascript:
-#   - js/social.js
+nav:
+  - index.md
+  - blog/index.md
+  - curriculum: cv.pdf
 plugins:
   - search:
-      enabled: false
-  - blog:
       enabled: true
 markdown_extensions:
   - attr_list
